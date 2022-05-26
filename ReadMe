@@ -1,0 +1,5 @@
+Project, in a team. Working on Linux operating system, used Asterisk server (as a PBX) for softphones (X-Lite, Zoiper, Bria Solo). 
+Implemented phone numbers as SIP numbers and as IAX numbers. Added some functions for other numbers when calling: conference and the Say functions
+(Say Digits, Say Date & Time, etc). All of them were configured in Asterisk (extensions.conf, sip.conf, iax.conf) files, and have been tried out if they work properly on softphones.
+Main idea: find the IP address of the computer (on which runs the Asterisk server), and connect the softphones using this main server's IP.
+The code is mostly commented, for a better understanding.
